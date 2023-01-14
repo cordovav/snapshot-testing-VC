@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import GitHubCard from './GitHub/GitHubCard'
 import './App.css';
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h2>A test to test snapshot testing</h2>
-      </header>
+    <div className="App" pt-4>
+      <Row>
+        <Col style={{ display: 'flex', justifyContent:'center'}}>
+        <GitHubCard/>
+        </Col>
+      </Row>
+      
     </div>
   );
 }

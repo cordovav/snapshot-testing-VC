@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div>
+  <div
+    className="card"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <img
+      alt="link-to-github"
+      className="text-center"
+      src="LinktoGithub.jpg"
+      variant="top"
+    />
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title h5"
+      >
+        Veny's Github account
+      </div>
+      <p
+        className="card-text"
+      >
+        Some quick example showing a Card element using react bootstrap. Link to Github is below
+      </p>
+    </div>
+    <div
+      className="list-group-flush list-group"
+      onKeyDown={[Function]}
+    >
+      <div
+        className="list-group-item"
+        data-rr-ui-event-key={null}
+        onClick={[Function]}
+      >
+        This Card will link to my Github account
+      </div>
+      <div
+        className="list-group-item"
+        data-rr-ui-event-key={null}
+        onClick={[Function]}
+      >
+        The Link below will direct you to my Github
+      </div>
+      <div
+        className="list-group-item"
+        data-rr-ui-event-key={null}
+        onClick={[Function]}
+      >
+        Thanks for visiting!
+      </div>
+    </div>
+    <div
+      className="card-body"
+    >
+      <a
+        className="card-link"
+        href="https://github.com/cordovav"
+      >
+        Link to GitHub
+      </a>
+    </div>
+  </div>
+</div>
+`;
